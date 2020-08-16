@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS layout */
+
+/* 默认样式 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, code, em, img, q, small, strong, dd, dl, dt, li, ol, ul, fieldset, form, label, table, tbody, tr, th, td, input
+{margin:0;padding:0;color:#333333;}
+p{font-size: 14px;}
+body{width:100%;font-size:12px;font-family:微软雅黑,Arial, Helvetica, sans-serif, simsun,宋体;background-color: #f5f4f9;}
+a, a:link, a:visited {text-decoration: none;}
+a:hover{color:#e60012;}
+li{list-style:none;}
+img{border:none;}
+.clear{clear:both;}
+
+
+/* 浮动公共样式 */
+.left{ float:left; _display:inline; }
+.right{ float:right; _display:inline; }
+.clear:after{ display:block; content:''; clear:both;}
+.clear{ zoom:1;}
+
+.pd-top-bottom{padding: 0.6rem 0 0.8rem 0;}
+
+ 
